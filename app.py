@@ -2,10 +2,12 @@ import streamlit as st
 import folium
 from streamlit_folium import folium_static
 import pandas as pd
-import geopandas as gpd
 import numpy as np
 import plotly.express as px
-from folium.plugins import HeatMap, Draw, LayerControl, TimeSliderControl
+from folium.plugins import HeatMap, Draw, LayerControl
+
+# Remove TimeSliderControl since it's not needed
+# from folium.plugins import TimeSliderControl
 
 # Page configuration
 st.set_page_config(
