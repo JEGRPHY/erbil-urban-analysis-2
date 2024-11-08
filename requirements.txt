@@ -5,4 +5,4 @@ pandas==2.1.3
 numpy==1.26.3
 plotly==5.18.0
 earthengine-api==0.1.392
-geemap==0.29.6
+setuptools==68.2.2
